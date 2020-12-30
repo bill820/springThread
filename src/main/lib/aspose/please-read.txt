@@ -1,0 +1,14 @@
+1.cmd方式进入步骤一jar包目录
+
+2.cmd 运行代码
+mvn install:install-file -Dfile=D:\wn-svn-idea-project\aftersale\src\main\lib\aspose\aspose-words-15.8.0-jdk16.jar -DgroupId=com.aspose -DartifactId=aspose-words -Dversion=please-read.txt -Dpackaging=jar
+
+3.参数说明
+mvn install:install-file         //mvn 命令
+-Dfile=sojson-demo.jar　         //要添加的包
+-DgroupId=com.sojson 　　　　　　//pom文件对应的groupId
+-DartifactId=com.sojson.demo    //pom文件对应得artifactId
+-Dversion=1.0　　　　　　　　　 //添加包的版本
+-Dpackaging=jar
+
+4.pom引入
