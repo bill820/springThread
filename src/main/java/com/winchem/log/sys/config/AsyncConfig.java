@@ -15,8 +15,8 @@ import java.util.concurrent.Executor;
 @EnableAsync
 public class AsyncConfig implements AsyncConfigurer {
 
-    @Autowired
-    private GlobalAsyncExceptionHandler exceptionHandler;
+//    @Autowired
+//    private GlobalAsyncExceptionHandler exceptionHandler;
 
     @Override
     public Executor getAsyncExecutor() {
@@ -25,7 +25,7 @@ public class AsyncConfig implements AsyncConfigurer {
 
     @Override
     public AsyncUncaughtExceptionHandler getAsyncUncaughtExceptionHandler() {
-        return exceptionHandler;
+        return null;
     }
 
 }

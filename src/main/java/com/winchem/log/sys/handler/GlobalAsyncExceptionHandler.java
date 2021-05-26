@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
 
-@Component
+//@Component
 @Slf4j
 public class GlobalAsyncExceptionHandler implements AsyncUncaughtExceptionHandler {
 

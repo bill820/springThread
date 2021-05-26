@@ -25,7 +25,7 @@ public class WorkOrderAppRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
         log.info("初始化定时任务---taskInitService---start ");
-        taskInitService.init();
+//        taskInitService.init();
         log.info("初始化定时任务---taskInitService---end ");
     }
 }
